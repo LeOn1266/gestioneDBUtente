@@ -48,12 +48,6 @@
             echo "Errore: " . $sql . "<br>" . $conn->error;
         }
     }
-
-    // lettura dei dati della tabella
-    $sql = "SELECT DISTINCT Citta FROM $tab_nome ORDER BY Citta";
-    $result = $conn->query($sql);
-    $result->free();
-    $conn->close();
 ?>
 
 
