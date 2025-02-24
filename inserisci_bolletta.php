@@ -1,3 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inserisci Bolletta</title>
+</head>
+<body>
+    <h2>Inserisci Bolletta</h2>
+    <form method="post" action="">
+        <label for="data">Data:</label>
+        <input type="date" id="data" name="data" required><br><br>
+        <label for="consumo">Consumo:</label>
+        <input type="text" id="consumo" name="consumo" required><br><br>
+        <label for="importo">Importo:</label>
+        <input type="text" id="importo" name="importo" required><br><br>
+        <label for="codice_utente">Codice Utente:</label>
+        <input type="text" id="codice_utente" name="codice_utente" required><br><br>
+        <input type="submit" value="Inserisci Bolletta">
+    </form>
+</body>
+</html>
+
 <?php
     $host = "localhost";
     $username = "root";
@@ -36,23 +57,4 @@
 ?>
 
 
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Inserisci Bolletta</title>
-</head>
-<body>
-    <h2>Inserisci Bolletta</h2>
-    <form method="post" action="">
-        <label for="data">Data:</label>
-        <input type="date" id="data" name="data" required><br><br>
-        <label for="consumo">Consumo:</label>
-        <input type="text" id="consumo" name="consumo" required><br><br>
-        <label for="importo">Importo:</label>
-        <input type="text" id="importo" name="importo" required><br><br>
-        <label for="codice_utente">Codice Utente:</label>
-        <input type="text" id="codice_utente" name="codice_utente" required><br><br>
-        <input type="submit" value="Inserisci Bolletta">
-    </form>
-</body>
-</html>
+
