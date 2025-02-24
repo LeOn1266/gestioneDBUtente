@@ -16,6 +16,9 @@
         <label for="cognome_utente">Cognome Utente:</label>
         <input type="text" id="cognome_utente" name="cognome_utente" required><br><br>
 
+        <label for="id_utente">ID Utente:</label>
+        <input type="text" id="id_utente" name="id_utente" required><br><br>
+
         <input type="submit" value="Ricerca Bollette">
     </form>
 
@@ -40,13 +43,15 @@
         $data_inizio = $_POST['data_inizio'];
         $data_fine = $_POST['data_fine'];
         $cognome_utente = $_POST['cognome_utente'];
+        $id_utente = $_POST['id_utente'];
 
-        // Query per cercare le bollette nell'intervallo di date e con cognome utente
+        // Query per cercare le bollette nell'intervallo di date, con cognome utente e id utente
         $sql = "SELECT bollette.Data, bollette.Consumo, bollette.Importo, utenti.Cognome
                 FROM $tab_nome_bollette AS bollette
                 JOIN $tab_nome_utenti AS utenti ON bollette.codUtente = utenti.Codice
                 WHERE bollette.Data BETWEEN '$data_inizio' AND '$data_fine'
                 AND utenti.Cognome = '$cognome_utente'
+                AND utenti.Codice = '$id_utente'
                 ORDER BY bollette.Data";
 
         $result = $conn->query($sql);
