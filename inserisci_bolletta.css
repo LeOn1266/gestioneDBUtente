@@ -10,6 +10,13 @@ h2 {
     color: #222; /* Colore del testo leggermente più scuro */
     margin-bottom: 30px;
 }
+p {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #1101f8;
+    margin: 0;
+    padding: 20px;
+}
 
 form {
     background-color: #fff;
