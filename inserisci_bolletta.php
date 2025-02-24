@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Inserisci Bolletta</title>
+    <link rel="stylesheet" href="inserisci_bolletta.css">
 </head>
 <body>
     <h2>Inserisci Bolletta</h2>
