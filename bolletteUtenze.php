@@ -46,7 +46,7 @@
                 FROM $tab_nome_bollette AS bollette
                 JOIN $tab_nome_utenti AS utenti ON bollette.codUtente = utenti.Codice
                 WHERE bollette.Data BETWEEN '$data_inizio' AND '$data_fine'
-                AND utenti.Cognome LIKE '$cognome_utente'
+                AND utenti.Cognome = '$cognome_utente'
                 ORDER BY bollette.Data";
 
         $result = $conn->query($sql);
