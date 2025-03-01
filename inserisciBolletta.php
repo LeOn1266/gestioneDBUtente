@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="it">
 <head>
     <title>Inserisci Bolletta</title>
-    <link rel="stylesheet" href="inserisci_bolletta.css">
+    <link rel="stylesheet" href="inserisciBolletta.css">
 </head>
 <body>
-    <button onclick="location.href='index.html'" class="home-buttongg">Torna alla Home</button>
+    <button onclick="location.href='index.html'" class="home-button">Torna alla Home</button>
     <h2>Inserisci Bolletta</h2>
     <form method="post" action="">
         <label for="data">Data:</label>
@@ -18,6 +18,8 @@
         <input type="text" id="codice_utente" name="codice_utente" required><br><br>
         <input type="submit" value="Inserisci Bolletta">
     </form>
+    </body>
+    </html>
     <?php
         $host = "localhost";
         $username = "root";
@@ -48,8 +50,8 @@
             }
         }
     ?>
-</body>
-</html>
+
+
 
 
 
