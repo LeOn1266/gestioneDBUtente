@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="inserisci_utente.css">
 </head>
 <body>
+    <button onclick="location.href='index.html'" class="home-button">Torna alla Home</button>
     <h1>Inserisci Nuovo Utente</h1>
     <form method="post">
         <label for="nome">Nome:</label>
@@ -17,7 +18,6 @@
         <input type="text" id="citta" name="citta" required><br>
         <input type="submit" value="Salva">
     </form>
-    <button onclick="location.href='index.html'" class="home-button">Torna alla Home</button>
 </body>
 </html>
 <?php

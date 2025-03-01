@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="bolletteUtenze.css">
 </head>
 <body>
+    <button onclick="location.href='index.html'" class="home-button">Torna alla Home</button>
     <h2>Ricerca Bollette</h2>
     <form method="POST" action="">
         <label for="data_inizio">Data Inizio:</label>
@@ -22,7 +23,6 @@
 
         <input type="submit" value="Ricerca Bollette">
     </form>
-    <button onclick="location.href='index.html'" class="home-button">Torna alla Home</button>
 
     <?php
     // Configurazione database

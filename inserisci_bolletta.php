@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="inserisci_bolletta.css">
 </head>
 <body>
+    <button onclick="location.href='index.html'" class="home-button">Torna alla Home</button>
     <h2>Inserisci Bolletta</h2>
     <form method="post" action="">
         <label for="data">Data:</label>
@@ -17,7 +18,6 @@
         <input type="text" id="codice_utente" name="codice_utente" required><br><br>
         <input type="submit" value="Inserisci Bolletta">
     </form>
-    <button onclick="location.href='index.html'" class="home-button">Torna alla Home</button>
     <?php
         $host = "localhost";
         $username = "root";

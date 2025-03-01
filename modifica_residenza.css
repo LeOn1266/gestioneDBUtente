@@ -65,6 +65,9 @@ input[type="submit"]:active {
 }
 
 .home-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
     background-color: #1101f8;
     color: white;
     border: none;

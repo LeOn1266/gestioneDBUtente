@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="modifica_residenza.css">
 </head>
 <body>
+    <button onclick="location.href='index.html'" class="home-button">Torna alla Home</button>
     <h1>Modifica Residenza Utente</h1>
     <form method="post">
         <label for="utente_id">ID Utente:</label>
@@ -15,7 +16,6 @@
         <input type="text" id="nuova_citta" name="nuova_citta" required><br>
         <input type="submit" value="Modifica">
     </form>
-    <button onclick="location.href='index.html'" class="home-button">Torna alla Home</button>
 </body>
 </html>
 
