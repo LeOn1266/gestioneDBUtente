@@ -30,8 +30,8 @@
     $password = "";
     $db_nome = "utenze";
     $tab_nome_bollette = "bollette";
-    $tab_nome_utenti = "utenti";  // Assumo che esista una tabella utenti per il cognome
-
+    $tab_nome_utenti = "utenti";
+    
     // Connessione al database
     $conn = new mysqli($host, $username, $password, $db_nome);
     if ($conn->connect_errno) {

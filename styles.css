@@ -45,6 +45,6 @@ button:hover {
 }
 
 button:active {
-    transform: scale(0.95); /* Effetto di compressione quando il bottone è cliccato */
+    transform: scale(0.95); 
     background-color: #ff0000; /* Mantiene il colore scuro quando cliccato */
 }
