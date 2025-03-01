@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="inserisci_bolletta.css">
 </head>
 <body>
-    <button onclick="location.href='index.html'" class="home-button">Torna alla Home</button>
+    <button onclick="location.href='index.html'" class="home-buttongg">Torna alla Home</button>
     <h2>Inserisci Bolletta</h2>
     <form method="post" action="">
         <label for="data">Data:</label>
