@@ -15,6 +15,7 @@
         <input type="text" id="nuova_citta" name="nuova_citta" required><br>
         <input type="submit" value="Modifica">
     </form>
+    <button onclick="location.href='index.html'" class="home-button">Torna alla Home</button>
 </body>
 </html>
 

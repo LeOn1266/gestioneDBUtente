@@ -17,6 +17,7 @@
         <input type="text" id="citta" name="citta" required><br>
         <input type="submit" value="Salva">
     </form>
+    <button onclick="location.href='index.html'" class="home-button">Torna alla Home</button>
 </body>
 </html>
 <?php

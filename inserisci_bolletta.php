@@ -17,6 +17,7 @@
         <input type="text" id="codice_utente" name="codice_utente" required><br><br>
         <input type="submit" value="Inserisci Bolletta">
     </form>
+    <button onclick="location.href='index.html'" class="home-button">Torna alla Home</button>
     <?php
         $host = "localhost";
         $username = "root";

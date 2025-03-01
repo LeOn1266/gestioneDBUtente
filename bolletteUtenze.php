@@ -22,6 +22,7 @@
 
         <input type="submit" value="Ricerca Bollette">
     </form>
+    <button onclick="location.href='index.html'" class="home-button">Torna alla Home</button>
 
     <?php
     // Configurazione database

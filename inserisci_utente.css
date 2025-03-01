@@ -63,3 +63,26 @@ input[type="submit"]:active {
     transform: scale(0.95); 
     background-color: #ff0000; /* Mantiene il colore scuro quando cliccato */
 }
+
+.home-button {
+    background-color: #1101f8;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 20px;
+}
+
+.home-button:hover {
+    background-color: #ff0000;
+    transform: scale(1.05);
+}
+
+.home-button:active {
+    transform: scale(0.95);
+    background-color: #ff0000;
+}
