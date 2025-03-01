@@ -42,7 +42,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $sql = "INSERT INTO utenti (Nome, Cognome, Indirizzo, Citta) VALUES ('$nome', '$cognome', '$indirizzo', '$citta')";
 
     if ($conn->query($sql) === TRUE) {
-        echo "Nuovo utente inserito con successo";
+        echo "<p>Nuovo utente inserito con successo</p>";
     } else {
         echo "Errore: " . $sql . "<br>" . $conn->error;
     }
