@@ -60,7 +60,7 @@
         if ($result->num_rows > 0) {
             $totale_consumo = 0;
             $totale_importo = 0;
-            echo "<table border='1'>
+            echo "<div class='table-container'><table border='1'>
                     <tr>
                         <th>Data</th>
                         <th>Consumo</th>
@@ -78,7 +78,7 @@
                 $totale_consumo += $row["Consumo"];
                 $totale_importo += $row["Importo"];
             }
-            echo "</table>";
+            echo "</table></div>";
 
             // Mostra il riepilogo
             echo "<h3>Riepilogo:</h3>";

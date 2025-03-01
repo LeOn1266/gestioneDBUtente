@@ -64,3 +64,9 @@ input[type="submit"]:active {
     transform: scale(0.95); /* Effetto di compressione quando il bottone è cliccato */
     background-color: #ff0000; /* Mantiene il colore scuro quando cliccato */
 }
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}

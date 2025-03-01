@@ -41,9 +41,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $sql = "UPDATE utenti SET Indirizzo='$nuovo_indirizzo', Citta='$nuova_citta' WHERE Codice='$utente_id'";
 
     if ($conn->query($sql) === TRUE) {
-        echo "Residenza utente modificata con successo";
+        echo "<p>Residenza utente modificata con successo</p>";
     } else {
-        echo "Errore: " . $sql . "<br>" . $conn->error;
+        echo "<p>Errore: " . $sql . "<br></p>" . $conn->error;
     }
 
     $conn->close();
