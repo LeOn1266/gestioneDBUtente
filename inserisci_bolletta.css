@@ -80,12 +80,12 @@ input[type="submit"]:active {
     margin-top: 20px;
 }
 
-.home-button:hover {
+.home-buttongg:hover {
     background-color: #ff0000;
     transform: scale(1.05);
 }
 
-.home-button:active {
+.home-buttongg:active {
     transform: scale(0.95);
     background-color: #ff0000;
 }
