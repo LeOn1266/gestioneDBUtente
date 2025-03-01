@@ -2,6 +2,7 @@
 <html lang="it">
 <head>
     <title>Modifica Residenza</title>
+    <link rel="stylesheet" href="modifica_residenza.css">
 </head>
 <body>
     <h1>Modifica Residenza Utente</h1>

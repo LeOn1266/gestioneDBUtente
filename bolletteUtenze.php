@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Ricerca Bollette</title>
+    <link rel="stylesheet" href="bolletteUtenze.css">
 </head>
 <body>
     <h2>Ricerca Bollette</h2>
