@@ -46,6 +46,14 @@ input[type="submit"] {
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
+p {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #1101f8;
+    margin: 0;
+    padding: 20px;
+}
+
 input[type="submit"]:hover {
     background-color: #ff0000; /* Colore leggermente più scuro al passaggio del mouse */
     transform: scale(1.05); /* Leggero ingrandimento al passaggio del mouse */

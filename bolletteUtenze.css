@@ -20,6 +20,14 @@ form {
     text-align: left;
 }
 
+p {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #1101f8;
+    margin: 0;
+    padding: 20px;
+}
+
 label {
     display: block;
     margin: 10px 0 5px;
