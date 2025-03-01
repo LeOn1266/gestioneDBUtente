@@ -2,6 +2,7 @@
 <html lang="it">
 <head>
     <title>Nuovo Utente</title>
+    <link rel="stylesheet" href="inserisci_utente.css">
 </head>
 <body>
     <h1>Inserisci Nuovo Utente</h1>
@@ -18,7 +19,7 @@
     </form>
 </body>
 </html>
-<?php
+<?php\\
 $localhost = "localhost";
 $root = "root";
 $password = "";
