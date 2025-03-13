@@ -44,10 +44,10 @@
         $result = $conn->query($sql);
 
         if ($result->num_rows > 0) {
-            echo "<h3>Report Consumi per Città dal $data_inizio al $data_fine:</h3>";
+            echo "<h3>Report Consumi per Citta' dal $data_inizio al $data_fine:</h3>";
             echo "<table border='1'>
                     <tr>
-                        <th>Città</th>
+                        <th>Citta'</th>
                         <th>Totale Consumo (kWh)</th>
                     </tr>";
             while ($row = $result->fetch_assoc()) {
