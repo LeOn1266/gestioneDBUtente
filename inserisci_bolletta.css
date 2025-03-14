@@ -10,6 +10,13 @@ h2 {
     color: #222; /* Colore del testo leggermente più scuro */
     margin-bottom: 30px;
 }
+p {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #1101f8;
+    margin: 0;
+    padding: 20px;
+}
 
 form {
     background-color: #fff;
@@ -57,25 +64,7 @@ input[type="submit"]:active {
     background-color: #ff0000; /* Mantiene il colore scuro quando cliccato */
 }
 
-.table-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-table {
-    margin: 0 auto; /* Center the table */
-    border-collapse: collapse;
-    width: 80%; /* Adjust the width as needed */
-}
-
-th, td {
-    padding: 10px;
-    text-align: center;
-    border: 1px solid #ccc;
-}
-
-.home-button {
+.home-buttongg {
     position: absolute;
     top: 20px;
     left: 20px;
@@ -91,12 +80,12 @@ th, td {
     margin-top: 20px;
 }
 
-.home-button:hover {
+.home-buttongg:hover {
     background-color: #ff0000;
     transform: scale(1.05);
 }
 
-.home-button:active {
+.home-buttongg:active {
     transform: scale(0.95);
     background-color: #ff0000;
 }
