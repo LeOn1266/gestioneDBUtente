@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-    <title>Gestione DB Utenze</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Login e Registrazione</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <img src="logo.png" alt="VBS Logo" class="logo">
-    <ul>
-        <li><button onclick="location.href='inserisci_utente.php'">Inserisci Nuovo Utente</button></li>
-        <li><button onclick="location.href='inserisciBolletta.php'">Inserisci Nuova Bolletta</button></li>
-        <li><button onclick="location.href='bolletteUtenze.php'">Visualizza Bollette</button></li>
-        <li><button onclick="location.href='modifica_residenza.php'">Modifica Residenza</button></li>
-        <li><button onclick="location.href='report_consumi.php'">Report Consumi per Citta'</button></li>
-    </ul>
+    <div class="container">
+        <h1>Benvenuto</h1>
+        <div class="form-container">
+            <form method="POST" action="login.php">
+                <h2>Login</h2>
+                <label for="login-username">Username:</label>
+                <input type="text" id="login-username" name="username" required>
+                <label for="login-password">Password:</label>
+                <input type="password" id="login-password" name="password" required>
+                <input type="submit" value="Accedi">
+                <p>Se non sei registrato: <a href="registrazione.html"> registrati </a></p>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
