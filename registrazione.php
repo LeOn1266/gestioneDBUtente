@@ -25,4 +25,6 @@ if ($conn->query($sql)) {
     echo "Errore nella registrazione: " . $conn->error . "\n";
 }
 $conn->close();
+
+//bisogna gestire la duplicate per l'erroe
 ?>
